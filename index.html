@@ -4,9 +4,262 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Valentin M</title>
+    <style>
+    body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #2d2f3b;
+    background-color: #ecf0f4;
+    background-image: url("http://www.w3.org/2000/svg");
+    }
+
+
+    section {
+    padding: 20px 40px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+
+    p {
+    line-height: 20px;
+    }
+
+    h4 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    }
+
+    footer {
+    background: #2d2f3b;
+    text-align: center;
+    }
+
+    footer ul {
+    margin: 0px;
+    padding: 15px;
+    }
+
+
+    footer ul li {
+    display: inline;
+    margin: 20px;
+    }
+
+    a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    }
+
+    .info-section {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    max-width: 700px;
+    min-height: 300px;
+    box-shadow: 0 2px 6px #b1cae2, 0 10px 10px rgba(0,0,0,0.1);
+    }
+
+    #contact-form {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 1px 4px rgba(175, 167, 208, 0.6);
+
+    width: 360px;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 60px 20px;
+    }
+
+    form h4 {
+    margin-top: -10px;
+    margin-bottom: 60px;
+    }
+
+    label {
+    display: inline-block;
+    text-align: right;
+    width: 100px;
+    margin-left: -100px;
+    padding-right: 5px;
+    }
+
+    textarea, input {
+    width: 200px;
+    border: 0;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+    }
+
+    input {
+    margin-bottom: 20px;
+    height: 30px;
+    }
+
+    #contact-button {
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+
+    padding: 10px 20px;
+    margin: 40px 20px 20px 20px;
+
+    background-color: cornflowerblue;
+    color: #ecf0f1;
+    font-size: 16px;
+
+    transition: background-color .3s;
+    }
+
+
+    #contact-button:hover {
+    background-color: #3d84be;
+    }
+
+    nav {
+    background: cornflowerblue;
+    color: white;
+    height: 45px;
+    padding: 0px 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    }
+
+    nav h1 {
+    margin-top: -10px;
+    display: inline-block;
+    }
+
+    nav ul {
+    display: inline-block;
+    }
+
+    nav ul li {
+    display: inline;
+    margin-left: 30px;
+    }
+
+    #avatar-photo {
+    width: 150px;
+    height: 150px;
+    margin: 0px 20px;
+    float: left;
+    }
+
+    #project-images {
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    }
+
+    #project-images img{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    }
+    </style>
 </head>
 <body>
-    
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+            
+            <li>
+                <a href="#">Gallery</a>
+            </li>
+
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <header>
+            <h1>Welcome</h1>
+            <p>Hi! Welcome to my portfolio website.</p>
+        </header>
+
+        <section class="info-section" style="background-color: aliceblue;">
+            <h1>ABOUT ME</h1>
+
+            <img src="https://garden.zendesk.com/css-components/avatars/images/ma.png" 
+            alt="profile imgage"
+            width="300"
+            height="300"
+            id="avatar picture"
+            />
+
+            <p>Lorem ipsum...</p>
+
+        </section>
+
+        <section class="info-section" style="background-color:deepskyblue;">
+            <h2>MY PROJECTS</h2>
+
+            <img src="https://cdn-asset-mel-1.airsquare.com/www/library/image/illustration/responsive-design-dark-blue.png"
+            alt="profile imgage" width="300" height="300" />
+
+            <img src="https://cdn-asset-mel-1.airsquare.com/www/library/image/illustration/responsive-design-dark-blue.png"
+            alt="profile imgage" width="300" height="300" />
+
+            <img src="https://cdn-asset-mel-1.airsquare.com/www/library/image/illustration/responsive-design-dark-blue.png"
+            alt="profile imgage" width="300" height="300" />
+
+        </section>
+
+        <section class="info-section" style="background-color:aliceblue;">
+            <h2>CONTACT ME</h2>
+
+            <form action="" id="contact-form">
+                <h4>CONTACT FORM</h4>
+
+                <label for="">Name :</label>
+                <input type="text" />
+                <br />
+
+                <label for="">Email :</label>
+                <input type="email">
+                <br />
+
+                <label for="">Message</label>
+                <textarea cols="30" rows="10"></textarea>
+                <br />
+
+                <button type="submit">Contact Me</button>
+
+
+            </form>
+
+
+        </section>
+
+    </main>
+
+    <footer>
+         <ul>
+             <li>
+                 <a href="#">Blog</a>
+             </li>
+
+             <li>
+                 <a href="#">Gallery</a>
+             </li>
+
+             <li>
+                 <a href="#">Contact</a>
+             </li>
+         </ul>
+    </footer>
+
 </body>
 </html>
